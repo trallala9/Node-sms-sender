@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width,  initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Text Messages</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Send message</h2>
+        <input type="tel" name = "number" id="number" placeholder="Please enter Your phone number">
+        <input type="text" name="msg" id="msg" placeholder="Enter text...">
+        <input type="button" id="button" value="Send text" class="button button-primary">
+        <p class="response"></p>
+    </div>
+  <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
